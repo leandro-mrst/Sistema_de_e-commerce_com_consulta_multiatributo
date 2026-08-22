@@ -1,0 +1,13 @@
+experimento,perfil,variante,total_linhas,tipo_consulta,i_refs,i1_misses,i1_miss_rate_pct,d_refs,d_reads,d_writes,d1_misses,d1_miss_rate_pct,lld_misses,lld_miss_rate_pct,ll_misses,ll_miss_rate_pct,branches,branch_mispredicts,branch_mispredict_rate_pct,cachegrind_out
+CG_cadastros,cadastros,avl,2000,misto,323212400,51166,0.02,170885631,116749663,54135968,223189,0.1,25116,0.0,28453,0.0,32371228,1014357,3.1,bench/cachegrind/CG_cadastros_avl.out
+CG_cadastros,cadastros,hash,2000,misto,320560107,33976,0.01,168639316,115656413,52982903,220163,0.1,25604,0.0,28947,0.0,32322889,1136054,3.5,bench/cachegrind/CG_cadastros_hash.out
+CG_transacoes,transacoes,avl,2000,misto,1146566150,47850,0.0,591437463,412768110,178669353,444545,0.1,18463,0.0,21779,0.0,126570784,3005009,2.4,bench/cachegrind/CG_transacoes_avl.out
+CG_transacoes,transacoes,hash,2000,misto,1143191634,46295,0.0,588951933,411315458,177636475,421477,0.1,18615,0.0,21939,0.0,126428685,3436755,2.7,bench/cachegrind/CG_transacoes_hash.out
+CG_consultas,consultas,avl,2000,misto,778742750,60408,0.01,393260431,267132360,126128071,406512,0.1,16466,0.0,19780,0.0,87285695,2813105,3.2,bench/cachegrind/CG_consultas_avl.out
+CG_consultas,consultas,hash,2000,misto,777197695,63971,0.01,391993634,266452938,125540696,377248,0.1,16667,0.0,19991,0.0,87242183,3191478,3.7,bench/cachegrind/CG_consultas_hash.out
+CG_cadastros,cadastros,vetor,2000,misto,387831452,48865,0.01,204551527,139020882,65530645,335688,0.2,23186,0.0,26542,0.0,38589922,1228738,3.2,bench/cachegrind/CG_cadastros_vetor.out
+CG_cadastros,cadastros,hash,2000,misto,320551263,37723,0.01,168637519,115654539,52982980,221775,0.1,25604,0.0,28942,0.0,32319724,972471,3.0,bench/cachegrind/CG_cadastros_hash.out
+CG_transacoes,transacoes,vetor,2000,misto,1148264604,54090,0.0,591632917,413061438,178571479,423731,0.1,17068,0.0,20405,0.0,126723907,3020311,2.4,bench/cachegrind/CG_transacoes_vetor.out
+CG_transacoes,transacoes,hash,2000,misto,1143186826,43865,0.0,588951380,411314828,177636552,422929,0.1,18615,0.0,21934,0.0,126427386,2970797,2.3,bench/cachegrind/CG_transacoes_hash.out
+CG_consultas,consultas,vetor,2000,misto,788571141,71829,0.01,398063773,270413128,127650645,396404,0.1,15488,0.0,18825,0.0,88186566,2863975,3.2,bench/cachegrind/CG_consultas_vetor.out
+CG_consultas,consultas,hash,2000,misto,777192927,60818,0.01,391993091,266452318,125540773,378047,0.1,16667,0.0,19987,0.0,87240899,2790777,3.2,bench/cachegrind/CG_consultas_hash.out

@@ -1,0 +1,6 @@
+variante=hash
+total_loads=6123558
+skip_frac=0.42
+pontos=35000
+addr_min=0x119040
+addr_max=0x1ffefffc60
